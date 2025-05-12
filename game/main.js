@@ -13,4 +13,4 @@ function onClick() {
 }
 
 ClickButton.addEventListener('click', onClick);
-displayUpdate();
+displayUpdate(Clicks);
