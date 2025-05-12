@@ -12,5 +12,5 @@ function onClick() {
   displayUpdate(Clicks);
 }
 
-ClickButton.addEventListener('click', onClick)
-displayUpdate()
+ClickButton.addEventListener('click', onClick);
+displayUpdate();
