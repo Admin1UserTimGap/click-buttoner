@@ -9,6 +9,10 @@ function onClick() {
   displayUpdate(Clicks);
 }
 $(document).ready(function() {
-  $('#btn-main').on('click', onClick());
+  console.log("Code Execution Line 12")
+  $('#btn-main').on('click', function() {
+    console.log("Code Execution Line 14")
+    onClick()
+  });
   displayUpdate(Clicks);
 })
