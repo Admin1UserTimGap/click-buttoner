@@ -1,4 +1,5 @@
 let Clicks=0;
+console.log("TEST: BOOTUP...")
 
 function displayUpdate(clicks) {
   $('display').text(clicks)
