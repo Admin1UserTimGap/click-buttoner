@@ -1,7 +1,5 @@
 let Clicks=0;
 
-const ClickButton=document.getElementById("btn-main")
-
 function displayUpdate(clicks) {
   $('display').text(clicks)
 }
