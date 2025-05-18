@@ -1,8 +1,8 @@
 let Clicks=0;
 
 function displayUpdate(clicks) {
-  console.log("The problem is in line 5!")
-  $('display').text(clicks)
+  console.log("The problem is in line 5!");
+  $('display').text(clicks);
 }
 function onClick() {
   Clicks++;
@@ -10,7 +10,7 @@ function onClick() {
 }
 $(document).ready(function() {
   $('#btn-main').on('click', function() {
-    onClick()
+    onClick();
   });
   displayUpdate(Clicks);
 })
