@@ -1,10 +1,9 @@
-Clicks=0;
+let Clicks=0;
 
 const ClickButton=document.getElementById("btn-main")
 
 function displayUpdate(clicks) {
-  display=document.getElementById("display")
-  display.innerHTML=clicks;
+  $('display').text(clicks)
 }
 
 function onClick() {
@@ -12,5 +11,5 @@ function onClick() {
   displayUpdate(Clicks);
 }
 
-ClickButton.addEventListener('click', onClick);
+$('#btn-main').click(onClick); 
 displayUpdate(Clicks);
