@@ -9,6 +9,6 @@ function onClick() {
   displayUpdate(Clicks);
 }
 $(document).ready(function() {
-  $('#btn-main').click(onClick); 
+  $('#btn-main').on('click', onClick());
   displayUpdate(Clicks);
 })
